@@ -1,24 +1,32 @@
-<header class="header">
-    <div class="navigation">
-        <a href="/" class="logo">{{ site.title }}</a>
-
-        <ul class="menu">
-            <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
-            <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">Blog</a></li>
-        </ul>
+<div class="row wrapper">
+    <div class='col-sm-5 col-sm-offset-4'>
+        <p class='logo'>Praveen Singh</p>
+    </div>
+    <div class='col-sm-5 col-sm-offset-3'>
+        <p>&nbsp &nbsp &nbsp &nbsp
+            I am a robotics engineer</p>
+    </div>
+    <div class='col-sm-10 col-sm-offset-2'>
+        <p>&nbsp &nbsp &nbsp &nbsp
+        Previously, I was a frontend developer at
+        <a target="blank" href="https://play.google.com/store/apps/details?id=com.flutterbee.tinyowl&hl=en">Tinowl</a>.</p>
     </div>
 
-    <ul class="social-links">
-        {% if site.author.github %}
-            <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-github"></i>
-            </a>
-        {% endif %}
+    <div class='col-sm-10 col-sm-offset-1'>
+        <p>&nbsp &nbsp &nbsp &nbsp
+           Before that, I was a cofounder of
+           <a target="blank" href="http://bagztra.com/">Bagztra</a>
+           and developer at
+           <a target="blank" href="https://www.aasaanjobs.com/en/">Aasaanjobs.</a>
+       </p>
+    </div>
 
-        {% if site.author.twitter %}
-            <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-twitter"></i>
-            </a>
-        {% endif %}
-    </ul>
-</header>
+    <div class='col-sm-10 col-sm-offset-1'>
+        <p>
+           And in the beginning, I was a student in the electrical dep of BVB, working with
+           <a target="blank" href="https://www.facebook.com/gunkedar?fref=ts">Kedar Prabhu.</a>
+
+       </p>
+    </div>
+
+</div>

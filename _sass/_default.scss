@@ -65,8 +65,8 @@ strong {
 
 /* =Header */
 .wrapper {
-    max-width: 800px;
-    margin: 100px auto;
+    // max-width: 800px;
+    margin-top: 2%;
 }
 
 .header {
@@ -78,7 +78,7 @@ strong {
 }
 
 .logo {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
     color: $iron;
     display: block;
@@ -100,8 +100,8 @@ strong {
     &:last-child {
         margin-right: 0px;
     }
-}
 
+}
 .menu__entry a {
     font-weight: 400;
 }
