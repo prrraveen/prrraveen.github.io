@@ -17,7 +17,6 @@ a {
 
 p {
     font-size: 20px;
-    color: $iron;
     line-height: 32px;
 }
 
@@ -65,8 +64,8 @@ strong {
 
 /* =Header */
 .wrapper {
-    // max-width: 800px;
-    margin-top: 2%;
+    max-width: 800px;
+    margin: 100px auto;
 }
 
 .header {
@@ -78,7 +77,7 @@ strong {
 }
 
 .logo {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
     color: $iron;
     display: block;
@@ -100,8 +99,8 @@ strong {
     &:last-child {
         margin-right: 0px;
     }
-
 }
+
 .menu__entry a {
     font-weight: 400;
 }
