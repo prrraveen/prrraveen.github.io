@@ -1,0 +1,34 @@
+---
+layout: post
+title:  A less annoying alarm built with RaspberryPi and Haskell Wai
+subtitle: Wale Up!
+date:   2016-12-2 00:44:01
+categories: [haskell, tool]
+---
+
+This is still a draft. I like to publish my draft, So I know they are out there and I need to finish writing them.
+
+You know a thing about traditional alarms?  They don't wake you up.
+
+Haskell vs python development experience
+
+Debugging take 1/3 of my coding time. Haskellers pay a lot of attention to composability when writing a library. It makes you very productve because if you get type matching, chances are your code will work out of the box. In this project, the compiler was whining about type mismatch 8 out of 10 times. It becomes very intuitive because you already know where the types will mismatch before even compiling the code. To prove this to you. I will catch all the debugging sessions when I extend this capability. This reduces development time by 1/2 because you save 1/2 time debugging. You quickly become better at resolving type mismatch errors.
+
+This is the problem with python. two library or frameworks don't play well together. 
+error logs are lengthy and traverse through tens of files to produce debug traces. 
+<!--
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
+--!>

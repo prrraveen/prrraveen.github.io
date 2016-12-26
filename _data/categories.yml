@@ -1,8 +1,11 @@
-- slug: design
-  name: Design
+- slug: haskell 
+  name: Haskell
 
-- slug: tools
-  name: Tools
+- slug: gantryBot
+  name: Gantrybot
 
-- slug: productivity
-  name: Productivity
+- slug: frontend
+  name: Frontend
+
+- slug: tools 
+  name: Tools & Productivity
