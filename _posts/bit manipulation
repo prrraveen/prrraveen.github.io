@@ -1,0 +1,8 @@
+# test if a number is power of two
+x & x - 1 == 0 ? true : false
+
+x is same as x - 1 except after and including right most high bit. e.g 
+x = 16 -> 10000 and 15 = 01111
+x = 8 -> 01000 and 7 = 00111
+
+
