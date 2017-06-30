@@ -1,5 +1,4 @@
-It's raining here. People are leaving to office and using their cars as umbrella in traffic jams. This gives me time to solve another intresting maths
-problem.
+It is a rainy day. Here in Nice, as everywhere, people use their cars as umbrellas so the traffic jams are bigger that usual. This gives me the time to solve another math problem.
 
 ### The Problem 
 Given a finite set A and a mapping f from A to itself, find a subset S ⊆ A  with the maximum number of elements, such that
