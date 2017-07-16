@@ -5,4 +5,4 @@ Given a finite set A and a mapping f from A to itself, find a subset S ⊆ A  wi
 * The function f maps every element of S to another element of S(i.e injective).
 * No two elements of S are mapped to the same element (i.e f is one to one when restricted to S).
 
-<img src="_data/IMG_20170620_132423.jpg" /> 
+<img src="{_data}/IMG_20170620_132423.jpg" /> 
