@@ -6,3 +6,5 @@ Given a finite set A and a mapping f from A to itself, find a subset S ⊆ A  wi
 * No two elements of S are mapped to the same element (i.e f is one to one when restricted to S).
 
 <img src="/_data/IMG_20170620_132423.jpg" height="700" width="500"/> 
+
+If `f` is originally one-to-one, then the whole set *A* satisfies the conditions of the problems, and *A* is definitely maximal. If on the other hand, f(i) = f(j) for some i ≠ , then *S*  cannot contain both i and j.
