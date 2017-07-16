@@ -5,9 +5,8 @@ subtitle: Wake Up!
 date:   2016-12-2 00:44:01
 categories: [haskell, tool]
 ---
-You know a thing about traditional alarms?  They don't wake you up.
-I used my phone as alarm for sometime but I it's just too easy to turn it off and go back to bed. I wanted an alarm that needs some efforts to turn it off. So I build an alarm with the Raspberry pi and an old speakers. I installed it on my bed room ceiling. It only get turn of by submitting random numbers it generates and texts me.
-I used Haskell to program this. Here is the code if you like to setup your own.
+You know a thing about traditional alarms? They don’t wake you up. I used my phone as an alarm for sometime but it  always is super easy to turn it off and go back dreaming on your bed. So,I wanted an alarm that would need some effort to shut. And finally I built an alarm with the Raspberry pi and an old speakers, I went ahead and  installed that  on my bed room ceiling. So this alarm, when it rang, could only be turned off by submitting random numbers that it  generates itself and sends to me via phone message. To built this super piece, I used Haskell. 
+I believe this wonder works pretty well, so go ahead and build yourself one. Here under is the code.
 
 {% highlight haskell %}
 {-# LANGUAGE OverloadedStrings  #-}
