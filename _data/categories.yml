@@ -1,11 +1,5 @@
-- slug: haskell 
-  name: Haskell
-
 - slug: gantryBot
   name: Gantrybot
 
-- slug: frontend
-  name: Frontend
-
-- slug: tools 
-  name: Tools & Productivity
+- slug: hackerRank 
+  name: HackerRank
