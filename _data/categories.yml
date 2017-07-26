@@ -1,5 +1,8 @@
 - slug: gantryBot
   name: Gantrybot
 
-- slug: hackerRank 
+- slug: HackerRank 
   name: HackerRank
+
+- slug: Codility 
+  name: Codility 
