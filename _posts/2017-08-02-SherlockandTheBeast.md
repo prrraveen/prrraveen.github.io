@@ -28,8 +28,7 @@ def buildNum(five,three):
     return ''.join(res)
 {% endhighlight %}
 
-Mathmatical intuition is very important in problem solving. it is specially important for greedy and dynamic programming.
-I will do atleast 100 eular problems before appearing for Toptal.
+Mathematical intuition is very important for problem-solving. It is especially important for greedy and dynamic programming. I will do at least 100 Euler problems before appearing for Toptal.
  
 ### Time and Space Complexity
 time complexity is O(n)
