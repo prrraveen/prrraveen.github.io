@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Codility's Longest Password
-subtitle: SHOULD, MUST, CAN, MAY, ATLEAST, ATMOST in problem statement can make you feel dumb. 
+subtitle: SHOULD, MUST, CAN, MAY, ATLEAST, ATMOST in problem statement can be easily missed and will leave you feeling dumb. 
 date: 2017-08-09 00:44:01
 categories: [Codility]
 ---
 # The Problem
-[Here is the link to the problem statement.](https://codility.com/programmers/lessons/90-tasks_from_indeed_prime_2015_challenge/longest_password/
+[Here is the link to the problem statement.](https://codility.com/programmers/lessons/90-tasks_from_indeed_prime_2015_challenge/longest_password/)
 
 # Solutions
 
