@@ -23,33 +23,40 @@ For example.
 * there should be an even number of letters;
 * there should be an odd number of digits.
 
-should is so subtle in the statement that I assumed that the password should be alphnumeric. But that is no the case here.
-
+even number of letters. 0 is Pairty. even so 111 is valid eventhough it is only numeric and it satisfies second condition.
 {% highlight python %}
-def solution(A,k):
-    A = map(int,A.strip().split(' '))
-    n = len(A)
-    ai = [None] * (n+1)
-    for i,v in enumerate(A):
-        ai[v] = i
-    i = 0
-    doneSwaping = 0
-    for v in xrange(n,0,-1):
-        if i >= n or doneSwaping == k:
-            break
-        if A[i] != v:
-            doneSwaping += 1
-            e = A[i]
-            A[i],A[ai[v]] = A[ai[v]], A[i]
-            ai[e], ai[v] = ai[v],ai[e] 
-        i += 1
-    return ' '.join(map(str,A))
-{% endhighlight %}
+import re
+def solution(S):
+    S = S.strip().split(' ')
+    n = len(S)
+    maxLen = 0  
+    currupt = False
+    alphRe = re.compile('[a-zA-Z]')
+    intRe = re.compile('[0-9]')
+    for word in S:
+        currupt = False
+        if len(word) > maxLen:
+            alphC = 0
+            intC = 0
+            for ch in word:
+                #print "ch :: {0}".format(ch)
+                if alphRe.match(ch):
+                    alphC += 1
+                elif intRe.match(ch):
+                    intC += 1
+                else:
+                    currupt = True
+                    break
+                    
 
-I made two mistakes, I did not read the problem twice before coding. Always read the problem twice.
-I missed out on very important detail in the problem that number are in 1 to N and unique.
-I had difficuly in coming up with test cases of all classes. I should focus on this. random test cases are only helpful
-for testing upper constrain on imput.
+            if (intC + alphC) == len(word) and currupt is False:
+                if alphC % 2 == 0 and intC % 2 == 1:
+                    maxLen = max(maxLen,(intC+alphC))
+
+    if maxLen == 0:
+        return -1
+    return maxLen
+{% endhighlight %}
 
 ### Time and Space Complexity
 time complexity is O(n)
